@@ -1,4 +1,4 @@
 1. Run -> pip install flask
-2. Run -> export FLASK_APP=api
-3. Change host/port in api.py if needed
-3. Run -> python api.py OR flask run
+2. Run -> export FLASK_APP=server
+3. Change host/port in server.py if needed
+3. Run -> python server.py OR flask run
