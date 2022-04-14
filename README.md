@@ -39,7 +39,7 @@ GET => 127.0.0.1:4000/articles (host:port/articles)
   {
     "articleUrl":"Link to article",
     "author":"Name of the author",
-    "content":"Article itself,formatted with HTML",
+    "content":"Article itself,formatted with HTML (IT CAN GET VERY LONG)",
     "data":"Date of publication of the article",
     "description":"Short description of article",
     "iconUrl":"Link to small icon from the article",
