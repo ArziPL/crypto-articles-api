@@ -55,7 +55,7 @@ GET => 127.0.0.1:4000/articles (host:port/articles)
     "iconUrl":"http://example.com",
     "imgUrl":"http://example.com",
     "title":"How this API works and why it's cool"
-  },
+  }
 ]
 
 ````
