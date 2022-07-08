@@ -64,7 +64,7 @@ def get_articles():
         formated_article["author"] = author
         formated_article["date"] = date
         formated_article["title"] = title
-        formated_article["descritpion"] = description
+        formated_article["description"] = description
         formated_article["content"] = inside_content_html
         formated_article["articleUrl"] = article_url
         formated_article["iconUrl"] = icon_url
