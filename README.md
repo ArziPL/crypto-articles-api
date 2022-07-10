@@ -21,15 +21,16 @@ Change host/port in `/server.py` if needed
 ````
 Export FLASK_APP
 ````
-export FLASK_APP=server
+export FLASK_APP=app
 ````
 
-Run <strong>ONE</strong> of those commands to start server
+Run that command to start dev server
 ````
 python server.py
 ````
+Or that command to start deployment server
 ````
-flask run
+waitress-serve --call app:run_app
 ````
 
 On host adress you will get list of objects (max 20) => every with data about article and article formatted with basic HTML
