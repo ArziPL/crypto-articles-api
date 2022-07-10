@@ -21,5 +21,10 @@ def articles():
     articles = script.get_articles()
     return jsonify(articles)
 
-if __name__ == '__main__':
-   app.run(host=host, port=port)
+def run_app():
+    from waitress import serve
+    serve(app,host=host,port=port)
+
+if __name__ == "__main__":
+    app.run(host,port)
+
