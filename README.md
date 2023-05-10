@@ -11,7 +11,7 @@ First install dependencies
 ````
 pip install -r requirements.txt
 ````
-Change host/port in `/server.py` if needed
+Change host/port in `/app.py` if needed
 ````
 7   app = Flask(__name__)
 8   cors = CORS(app)
@@ -26,7 +26,7 @@ export FLASK_APP=app
 
 Run that command to start dev server
 ````
-python server.py
+python app.py
 ````
 Or that command to start deployment server
 ````

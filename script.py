@@ -71,14 +71,13 @@ def get_articles():
         formated_article["imgUrl"] = inside_img_url
 
         # Printing data
-        # for key, value in formated_article.items():
-        #     print(key, " = ", value, end="\n")
-        # print("\n")
+        for key, value in formated_article.items():
+            print(key, " = ", value, end="\n")
+        print("\n")
 
         # Appending dict to final list + deleting dict to avoid errors
         article_list.append(formated_article)
         del formated_article
-
         # Counter for how much articles should be
         article_count += 1
         if article_count == 20:
